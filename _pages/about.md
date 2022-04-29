@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   address: >
     <p>430 Shady Ave. </p>
-    <p>Pittsburgh, 15306 PA </p>
+    <p>Pittsburgh, 15206 PA </p>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
