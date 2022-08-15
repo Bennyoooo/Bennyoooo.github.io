@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 Hello!
 
-I am Benny, a first-year Master of Computational Data Science student at Carnegie Mellon University's [Language Technology Institue](https://www.lti.cs.cmu.edu/), where I'm fortunate to be advised by Professor [Eric Nyberg](https://www.cs.cmu.edu/~ehn/).
+I am Benny, a second-year Master of Computational Data Science student at Carnegie Mellon University's [Language Technology Institue](https://www.lti.cs.cmu.edu/), where I'm fortunate to be advised by Professor [Eric Nyberg](https://www.cs.cmu.edu/~ehn/).
 
 Before joining CMU, I earned my B.A. with high distinction in Computer Science and Data Science at UC Berkeley.
 
