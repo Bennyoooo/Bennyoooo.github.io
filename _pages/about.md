@@ -8,8 +8,8 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>430 Shady Ave. </p>
-    <p>Pittsburgh, 15206 PA </p>
+    <p>3061 La Selva St </p>
+    <p>San Mateo, CA 94403 </p>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
