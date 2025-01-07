@@ -9,35 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
-        },{id: "post-a-post-with-image-galleries",
+  },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
       
@@ -395,9 +367,6 @@ ninja.data = [{
           section: "News",},{id: "news-i-am-going-to-work-at-meta-nyc-as-a-software-engineer-intern-on-instagram-team-this-summer",
           title: 'I am going to work at Meta, NYC as a software engineer intern...',
           description: "",
-          section: "News",},{id: "news-i-started-working-at-meta-as-a-machine-learning-software-engineer-on-facebook-notification-ml-team",
-          title: 'I started working at Meta as a Machine Learning Software Engineer on Facebook...',
-          description: "",
           section: "News",},{id: "news-our-team-won-the-third-place-at-citadel-x-correlation-one-east-coast-regional-datathon",
           title: 'Our team won the third place at Citadel X Correlation One East Coast...',
           description: "",
@@ -406,6 +375,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-i-graduated-from-carnegie-mellon-university-and-received-my-master-of-computational-data-science-degree",
           title: 'I graduated from Carnegie Mellon University, and received my Master of Computational Data...',
+          description: "",
+          section: "News",},{id: "news-i-started-working-at-meta-as-a-machine-learning-software-engineer-on-facebook-notification-ml-team",
+          title: 'I started working at Meta as a Machine Learning Software Engineer on Facebook...',
           description: "",
           section: "News",},{id: "news-i-joined-meta-s-monetization-genai-team-training-llms-for-advertisers",
           title: 'I joined Meta’s Monetization GenAI team, training LLms for advertisers.',
@@ -460,35 +432,35 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%62%65%6E%6E%79%6A%78%68@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/Bennyoooo", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-x',
+        title: 'X',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://twitter.com/Benny_Jiang_", "_blank");
         },
       },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://www.linkedin.com/in/benny-jiang", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-instagram',
+        title: 'Instagram',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://instagram.com/benny_oooo", "_blank");
         },
       },{
       id: 'light-theme',
