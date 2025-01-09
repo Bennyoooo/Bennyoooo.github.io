@@ -361,11 +361,11 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-i-started-my-master-s-program-at-cmu-lti",
-          title: 'I started my Master’s program at CMU LTI.',
+    },{id: "news-i-graduated-from-uc-berkeley-with-a-b-a-in-computer-science-and-data-science-with-high-distinction",
+          title: 'I graduated from UC Berkeley with a B.A. in Computer Science and Data...',
           description: "",
-          section: "News",},{id: "news-i-am-going-to-work-at-meta-nyc-as-a-software-engineer-intern-on-instagram-team-this-summer",
-          title: 'I am going to work at Meta, NYC as a software engineer intern...',
+          section: "News",},{id: "news-i-started-my-master-s-program-at-cmu-lti",
+          title: 'I started my Master’s program at CMU LTI.',
           description: "",
           section: "News",},{id: "news-our-team-won-the-third-place-at-citadel-x-correlation-one-east-coast-regional-datathon",
           title: 'Our team won the third place at Citadel X Correlation One East Coast...',
