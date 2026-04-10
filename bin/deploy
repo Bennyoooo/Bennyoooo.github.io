@@ -98,6 +98,7 @@ bundle exec jekyll build
 find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name 'CNAME' ! -name '.gitignore' -exec rm -rf {} \;
 mv _site/* .
 rm -R _site/
+touch .nojekyll
 
 # Push to DEPLOY_BRANCH
 git add -fA
