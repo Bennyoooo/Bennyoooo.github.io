@@ -17,9 +17,9 @@ social: true  # includes social icons at the bottom of the page
 ---
 Hello!
 
-I am Benny. I am working at Meta as a software engineer in machine learning. I earned my Master of Computational Data Science degree at Carnegie Mellon University's [Language Technology Institue](https://www.lti.cs.cmu.edu/), where I was fortunate to be advised by Professor [Eric Nyberg](https://www.cs.cmu.edu/~ehn/).
+I am Benny, a software engineer at Meta working on machine learning. On the side, I build things at the intersection of AI and product — projects like [Roamee](https://roamee-drab.vercel.app/), an AI tour guide, [AgentBox](https://clawbox.ink/), a cloud file system for AI agents, and [Qdrop](https://www.qdrop.cc/), a quick file sharing tool.
 
-Before joining CMU, I earned my B.A. with high distinction in Computer Science and Data Science at UC Berkeley.
+I earned my Master of Computational Data Science degree at Carnegie Mellon University's [Language Technology Institute](https://www.lti.cs.cmu.edu/), where I was advised by Professor [Eric Nyberg](https://www.cs.cmu.edu/~ehn/). Before CMU, I earned my B.A. with high distinction in Computer Science and Data Science at UC Berkeley.
 
 Here is my [resume](assets/pdf/BennyResume.pdf).
 
