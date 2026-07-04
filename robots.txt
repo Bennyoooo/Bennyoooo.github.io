@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://Bennyoooo.github.io/sitemap.xml
