@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="TwentyEyes: a macOS menu bar 20-20-20 eye break reminder that only counts real screen time, including video and meetings.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://bennyjiang.com/twentyeyes/">
+    <link rel="icon" href="icon.png">
+    <meta property="og:title" content="TwentyEyes">
+    <meta property="og:description" content="A 20-20-20 eye break reminder for Mac that knows when you're actually using it.">
+    <meta property="og:image" content="https://bennyjiang.com/twentyeyes/icon.png">
+    <link rel="stylesheet" href="../styles.css">
+    <title>TwentyEyes</title>
+    <style>
+      .hero { display: flex; align-items: center; gap: 18px; margin-bottom: 1em; }
+      .hero img { width: 96px; height: 96px; border-radius: 22px; }
+      .hero h2 { margin: 0; }
+      .hero p { margin: 4px 0 0; color: #555; }
+      .btn { display: inline-block; padding: 10px 18px; background: #0d6b80; color: #fff; border-radius: 8px;
+             text-decoration: none; font-weight: 600; }
+      .btn:hover { background: #0a5566; }
+      pre { background: #f4f4f4; padding: 10px 12px; border-radius: 8px; overflow-x: auto; font-size: 14px; }
+      code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+      .card { border: 1px solid #ddd; border-radius: 14px; padding: 14px 16px; max-width: 360px; margin: 0.5em 0 1.5em; }
+      .card b { display: block; margin-bottom: 4px; }
+      .card span { color: #555; font-size: 14px; }
+      .muted { color: #666; font-size: 14px; }
+    </style>
+  </head>
+  <body>
+    <main id="maincontent">
+      <div class="hero">
+        <img src="icon.png" alt="TwentyEyes icon">
+        <div>
+          <h2>TwentyEyes</h2>
+          <p>A 20-20-20 eye break reminder for Mac that knows when you're actually using it.</p>
+        </div>
+      </div>
+
+      <p>
+        <a class="btn" href="TwentyEyes.zip">Download for Mac</a>
+        <span class="muted">&nbsp; macOS 14 or later, Apple silicon. Free. About 1 MB.</span>
+      </p>
+
+      <p>Or install from Terminal in one line:</p>
+      <pre><code>curl -fsSL https://bennyjiang.com/twentyeyes/install.sh | sh</code></pre>
+
+      What makes it different:
+      <ul>
+        <li>Most break timers pause when you stop typing, so watching a video or sitting in a meeting doesn't count. TwentyEyes counts it. It watches keyboard and mouse, video playback, meetings, microphone and camera, and only reminds you after 20 minutes of real screen time.</li>
+        <li>The reminder is a small card in the corner. It never takes over your screen or steals focus, and it stays until you dismiss it. In a meeting? Ignore it and do the 20 seconds right after.</li>
+        <li>Step away for a couple of minutes and the timer resets on its own. That was your break.</li>
+        <li>No permissions needed. No account, no network, no tracking.</li>
+      </ul>
+
+      <div class="card">
+        <b>Time to look away</b>
+        <span>20 minutes of screen time. Look at something ~20 feet away for 20 seconds.</span>
+      </div>
+
+      If you downloaded the zip instead of using the installer:
+      <ul>
+        <li>Unzip it and drag TwentyEyes to Applications.</li>
+        <li>The app is not notarized with Apple, so the first launch is blocked. Open System Settings, go to Privacy &amp; Security, scroll down and click <em>Open Anyway</em>. Alternatively run <code>xattr -dr com.apple.quarantine /Applications/TwentyEyes.app</code>.</li>
+        <li>Click the eye icon in the menu bar to adjust the interval, see which signal counts you as active, or turn on Launch at login.</li>
+      </ul>
+
+      <p class="muted"><a href="../">Back to bennyjiang.com</a></p>
+    </main>
+  </body>
+</html>
